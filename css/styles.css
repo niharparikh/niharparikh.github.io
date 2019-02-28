@@ -1428,3 +1428,10 @@ span.see-more {
 .safari .testimonial-picture img {
   border: 0px solid #ddd;
 }
+
+/* ==========================================================
+! 18. ADDITIONS
+========================================================== */
+ul {
+  padding-left: 17px;
+}
