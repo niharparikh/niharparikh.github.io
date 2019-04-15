@@ -395,7 +395,7 @@ iframe {
 }
 @media (min-width:992px) {
   .container {
-    min-height: 680px;
+    min-height: 600px;
   }
 }
 .section-vcardbody {
@@ -406,17 +406,16 @@ iframe {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  border-top: 6px solid #111;
+  border: 2px solid #593196;
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
   border-radius: 0px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  -webkit-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
-  -moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
-  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
-  border-bottom: 15px solid #f4f4f4;
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(89,49,150,1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(89,49,150,1);
+  box-shadow: 5px 5px 0px 0px rgba(89,49,150,1);
 }
 @media (min-width:992px) {
   .section-vcardbody {
@@ -487,7 +486,7 @@ iframe {
 @media (min-width:992px) {
   .section-page-active {
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 }
 @media (min-width: 1400px) {
@@ -534,14 +533,14 @@ iframe {
 .main-menu-list li {
   padding: 0;
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   list-style: none;
 }
 .main-menu-list a {
   display: block;
   background: white;
   padding: 10px;
-  color: #021533;
+  color: black;
   text-transform: uppercase;
   font-size: 12px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -550,6 +549,9 @@ iframe {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(89,49,150,1);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(89,49,150,1);
+  box-shadow: 0px 2px 0px 0px rgba(89,49,150,1);
 }
 .main-menu-list a:active,
 .main-menu-list a:visited {
@@ -566,7 +568,7 @@ iframe {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #021533;
+  background: #593196;
   z-index: -1;
 }
 .main-menu-list a:hover {
@@ -580,7 +582,8 @@ iframe {
 }
 .main-menu-list a.menuActive {
   text-decoration: none;
-  background: #021533;
+  color: white;
+  background: #593196;
   padding-left: 15px;
 }
 /* ==========================================================
