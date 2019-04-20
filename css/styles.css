@@ -422,7 +422,7 @@ iframe {
     position: absolute;
     margin-top: 40px;
     left: 30%;
-    height: 570px;
+    height: 530px;
     width: 40%;
     padding: 45px;
     padding-bottom: 20px;
@@ -595,8 +595,8 @@ iframe {
   overflow-y: auto;
 }
 .vcard-profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   margin: 0 auto;
   margin-bottom: 20px;
