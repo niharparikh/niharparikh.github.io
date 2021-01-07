@@ -1,0 +1,21 @@
+.logo-new {
+	width: 125px;
+	height: auto;
+}
+
+.btn {
+	color: #fff;
+	background-color: #262E65;
+}
+
+.icon-new {
+	color: #262E65;
+}
+
+.logos-section .item {
+	opacity: 0.3;
+	line-height: 4em;
+}
+ a {
+ 	color: #262E65;
+ }
